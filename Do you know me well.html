@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width , initial-scale=1">
+          <title>Do you know me well?</title>
+    </head>
+    <body>
+     <h1 style="Text-align:center;color: blue;"><em>Do you know me well?</em></h1><br>
+        <b>Q1 Am I black</b><br>
+        <input type="radio" name="question1" id="correct1">Yes<br>
+        <input type="radio" name="question1" >No<br>
+
+<br>
+        <b>Q2 Is <u>Thabizolo</u> my second name</b><br>
+        <input type="radio" name="question2" >Yes<br>
+        <input type="radio" name="question2" id="correct2" >No <br>
+<br>
+        <b>Q3 Is 17 my age</b><br>
+        <input type="radio" name="question3" >Yes <br>
+        <input type="radio" name="question3" id="correct3">No<br>
+<br>
+        <b>Q4 What grade did I started dating</b><br>
+        <input type="radio" name="question4" >Gr7 <br>
+        <input type="radio" name="question4" >Gr9<br>
+        <input type="radio" name="question4" id="correct4">Gr5<br>
+<br>
+        <b>Q5 Do I have a girlfriend</b><br>
+        <input type="radio" name="question5" >No<br>
+        <input type="radio" name="question5" >Yes<br>
+        <input type="radio" name="question5" id="correct5">Maybe<br>
+<br>
+        <b>Q6 Do I love School</b><br>
+        <input type="radio" name="question6" >Yes<br>
+        <input type="radio" name="question6" id="correct6">No<br>
+<br>
+        <b>Q7 Am I a nice guy</b><br>
+        <input type="radio" name="question7" >Yes<br>
+        <input type="radio" name="question7" >No<br>
+        <input type="radio" name="question7" id="correct7">Sometimes<br>
+<br>
+        <b>Q8 Do I like White bitches</b><br>
+        <input type="radio" name="question8" id="correct8">Yes<br>
+        <input type="radio" name="question8" >No<br>
+
+<br>
+        <b>Q9 Would I date a girl with ruler😶</b><br>
+        <input type="radio" name="question9" >Yes<br>
+        <input type="radio" name="question9" id="correct9">No<br>
+<br>       
+        <b>Q10 What is my Body count😑</b><br>
+
+        <input type="radio" name="question10" id="correct10">4<br>
+        <input type="radio" name="question10" >2<br>
+        <input type="radio" name="question10" >0<br>
+<br>
+        <b>Q11 Content creator on...</b><br>
+        <input type="radio" name="question11" >TikTok<br>
+        <input type="radio" name="question11" >YouTube<br>
+        <input type="radio" name="question11" id="correct11">All of the above<br>      
+<br>
+
+        <input type="submit" name="submit" value="submitQuiz" onclick="result()">
+        <script type="text/javascript">
+            function result(){
+                // body...
+                var score=0;
+               if (document.getElementById("correct1").checked)
+               {
+                    score++;
+               }
+               if (document.getElementById("correct2").checked)
+               {
+                    score++;
+               }
+               if (document.getElementById("correct3").checked)
+               {
+                    score++;
+               }
+               if (document.getElementById("correct4").checked)
+               {
+                    score++;
+               }
+               if (document.getElementById("correct5").checked)
+               {
+                    score++;
+               }
+               if (document.getElementById("correct6").checked)
+               {
+                    score++;
+               }
+               if (document.getElementById("correct7").checked)
+               {
+                    score++;
+               }
+               if (document.getElementById("correct8").checked)
+               {
+                    score++;
+               }
+               if (document.getElementById("correct9").checked)
+               {
+                    score++;
+               }
+               if (document.getElementById("correct10").checked)
+               {
+                    score++;
+               }
+               if (document.getElementById("correct11").checked)
+               {
+                    score++;
+               }
+               document.write("Your score is: "+score );
+               document.write("     Akfani🫥")
+            }
+        </script>
+    </body>
+</html>
